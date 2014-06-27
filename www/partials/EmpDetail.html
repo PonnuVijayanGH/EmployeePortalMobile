@@ -1,0 +1,42 @@
+<ion-view title="">
+	<ion-nav-buttons side="right">
+	  <div ng-show="!isEditMode">
+	  	<a class="button button-clear" ng-click="isEditMode=true">Edit</a>
+      	<a class="button button-clear" ng-click="confirm()">Delete</a>
+	  </div>
+	  <div ng-show="isEditMode">
+	  	<a class="button button-clear" ng-click="save(employee)">Save</a>
+	  </div>
+    </ion-nav-buttons>
+	<ion-content>
+	<div class="card">
+		<div class="item item-image item-text-wrap">
+		<img ng-src="{{'img/main/'+employee.image}}"> 
+		<input type="text" ng-model="employee.name" ng-readonly="!isEditMode" placeholder ="Name">
+		<input type="text" ng-model="employee.designation" ng-readonly="!isEditMode" placeholder ="Designation">
+		</div>
+		<div class="item item-divider">Contact Details</div>
+		<div class = "item item-text-wrap">
+			<label class="item item-input item-stacked-label padding" ng-repeat = "contact in employee.contactInfo">
+	        	<span class="input-label">{{contact.name}}</span>
+	        	<input type="text" ng-model="contact.value" ng-readonly="!isEditMode" placeholder ="Enter details">
+			</label>
+		</div>
+		<div class="item item-divider">Educational Details</div>
+		<div class = "item item-text-wrap">
+			<label class="item item-input item-stacked-label padding" ng-repeat = "details in employee.eduInfo">
+	        	<span class="input-label">{{details.name}}</span>
+	        	<input type="text" ng-model="details.value" ng-readonly="!isEditMode" placeholder ="Enter details">
+			</label>
+		</div>
+		<div class="item item-divider">Project Details</div>
+		<div class = "item item-text-wrap" ng-repeat = "project in employee.projectInfo">
+			<input type="text" ng-model="project.name" ng-readonly="!isEditMode" placeholder ="Project name">
+			<label class="item item-input item-stacked-label padding" ng-repeat = "pDetails in project.details">
+	        	<span class="input-label">{{pDetails.name}}</span>
+	        	<input type="text" ng-model="pDetails.value" ng-readonly="!isEditMode" placeholder ="Enter details">
+			</label>
+		</div>
+	</div>
+	</ion-content>
+</ion-view>

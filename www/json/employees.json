@@ -1,0 +1,398 @@
+[
+	{
+		"name" : "Employee A",
+		"designation" : "Developer",
+		"email" : "empA@gmail.com",
+		"phone" : "9999990000",
+		"date" : "12/23/2014",
+		"id" : "emp01",
+		"image" : "emp01.jpg",
+		"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990000"
+			},
+			{
+				"name" : "Email",
+				"value" : "empA@gmail.com"
+			}
+		],
+		"projectInfo" : [
+				{
+					"name":"Project A",
+					"details" : [
+						{
+							"name" : "Technology",
+							"value" : "Tech A, Tech B"
+						},
+						{
+							"name" : "Description",
+							"value" : "Some description about the project"
+						}
+					]
+
+				},
+				{
+					"name":"Project B",
+					"details" : [
+						{
+							"name" : "Technology",
+							"value" : "Tech A, Tech B"
+						},
+						{
+							"name" : "Description",
+							"value" : "Some description about the project"
+						}
+					]
+				}
+			],
+		"eduInfo" : [
+				{
+					"name" : "Secondary",
+					"value" : "Secondary school name"
+				},
+				{
+					"name" : "Higher Secondary",
+					"value" : "Higher secondary school name"
+				},
+				{
+					"name" : "Degree",
+					"value" : "Qualification name, College name"
+				}
+			]
+	},
+	{
+		"name" : "Employee B",
+		"designation" : "Developer",
+		"email" : "empB@gmail.com",
+		"phone" : "9999990001",
+		"date" : "12/23/2011",
+		"id" : "emp02",
+		"image" : "emp02.jpg",
+		"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990001"
+			},
+			{
+				"name" : "Email",
+				"value" : "empB@gmail.com"
+			}
+		],
+		"projectInfo" : [
+				{
+					"name":"Project A",
+					"details" : [
+						{
+							"name" : "Technology",
+							"value" : "Tech A, Tech B"
+						},
+						{
+							"name" : "Description",
+							"value" : "Some description about the project"
+						}
+					]
+
+				},
+				{
+					"name":"Project B",
+					"details" : [
+						{
+							"name" : "Technology",
+							"value" : "Tech A, Tech B"
+						},
+						{
+							"name" : "Description",
+							"value" : "Some description about the project"
+						}
+					]
+				}
+			],
+		"eduInfo" : [
+				{
+					"name" : "Secondary",
+					"value" : "Secondary school name"
+				},
+				{
+					"name" : "Higher Secondary",
+					"value" : "Higher secondary school name"
+				},
+				{
+					"name" : "Degree",
+					"value" : "Qualification name, College name"
+				}
+			]
+	},
+	{
+		"name" : "Employee C",
+		"designation" : "Team Lead",
+		"email" : "empC@gmail.com",
+		"phone" : "9999990002",
+		"date" : "12/23/2014",
+		"id" : "emp03",
+		"image" : "emp03.jpg",
+	"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990002"
+			},
+			{
+				"name" : "Email",
+				"value" : "empC@gmail.com"
+			}
+		],
+	"projectInfo" : [
+			{
+				"name":"Project A",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+
+			},
+			{
+				"name":"Project B",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+			}
+		],
+	"eduInfo" : [
+			{
+				"name" : "Secondary",
+				"value" : "Secondary school name"
+			},
+			{
+				"name" : "Higher Secondary",
+				"value" : "Higher secondary school name"
+			},
+			{
+				"name" : "Degree",
+				"value" : "Qualification name, College name"
+			}
+		]
+	},
+	{
+		"name" : "Employee D",
+		"designation" : "Developer",
+		"email" : "empD@gmail.com",
+		"phone" : "9999990003",
+		"date" : "12/23/2013",
+		"id" : "emp04",
+		"image" : "emp04.jpg",
+	"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990003"
+			},
+			{
+				"name" : "Email",
+				"value" : "empD@gmail.com"
+			}
+		],
+	"projectInfo" : [
+			{
+				"name":"Project A",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+
+			},
+			{
+				"name":"Project B",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+			}
+		],
+	"eduInfo" : [
+			{
+				"name" : "Secondary",
+				"value" : "Secondary school name"
+			},
+			{
+				"name" : "Higher Secondary",
+				"value" : "Higher secondary school name"
+			},
+			{
+				"name" : "Degree",
+				"value" : "Qualification name, College name"
+			}
+		]
+	},
+	{
+		"name" : "Employee E",
+		"designation" : "Project Manager",
+		"email" : "empE@gmail.com",
+		"phone" : "9999990004",
+		"date" : "12/23/2010",
+		"id" : "emp05",
+		"image" : "emp05.jpg",
+	"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990004"
+			},
+			{
+				"name" : "Email",
+				"value" : "empE@gmail.com"
+			}
+		],
+	"projectInfo" : [
+			{
+				"name":"Project A",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+
+			},
+			{
+				"name":"Project B",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+			}
+		],
+	"eduInfo" : [
+			{
+				"name" : "Secondary",
+				"value" : "Secondary school name"
+			},
+			{
+				"name" : "Higher Secondary",
+				"value" : "Higher secondary school name"
+			},
+			{
+				"name" : "Degree",
+				"value" : "Qualification name, College name"
+			}
+		]
+	},
+	{
+		"name" : "Employee F",
+		"designation" : "Project Manager",
+		"email" : "empF@gmail.com",
+		"phone" : "9999990004",
+		"date" : "19/23/2016",
+		"id" : "emp06",
+		"image" : "emp06.jpg",
+	"contactInfo" : [
+			{
+				"name" : "Address",
+				"value" : "House Num, Street, Locality, Town, State"
+			},
+			{
+				"name" : "Phone",
+				"value" : "9999990005"
+			},
+			{
+				"name" : "Email",
+				"value" : "empF@gmail.com"
+			}
+		],
+	"projectInfo" : [
+			{
+				"name":"Project A",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+
+			},
+			{
+				"name":"Project B",
+				"details" : [
+					{
+						"name" : "Technology",
+						"value" : "Tech A, Tech B"
+					},
+					{
+						"name" : "Description",
+						"value" : "Some description about the project"
+					}
+				]
+			}
+		],
+	"eduInfo" : [
+			{
+				"name" : "Secondary",
+				"value" : "Secondary school name"
+			},
+			{
+				"name" : "Higher Secondary",
+				"value" : "Higher secondary school name"
+			},
+			{
+				"name" : "Degree",
+				"value" : "Qualification name, College name"
+			}
+		]
+	}
+]

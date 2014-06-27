@@ -1,0 +1,22 @@
+<ion-view title="Employee Portal">
+	<ion-nav-buttons side="left">
+      <a class="button button-icon icon ion-plus-round" ui-sref="detail()"></a>
+    </ion-nav-buttons>
+	<ion-content>
+		<div class="item-input-inset">
+			<label class="item-input-wrapper">
+		        <i class="icon ion-search placeholder-icon"></i>
+		        <input type="text" placeholder="Search" ng-model= "srchTxt">
+	    	</label>
+		</div>
+		<ion-list>
+			<ion-item ng-repeat="employee in employees | filter : srchTxt" class= "item item-wrap">
+				<a class="item item-avatar" ui-sref="detail({eid : employee.id})">
+			      <img ng-src="{{'img/icon/'+employee.image}}">
+			      <h2>{{employee.name}}</h2>
+			      <h2>{{employee.designation}}</h2>
+			    </a>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>
